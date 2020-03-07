@@ -1,0 +1,17 @@
+{
+  "name": "futsal-cup-2020-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FilipZafran/FutsalCup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FilipZafran/FutsalCup/issues"
+  },
+  "homepage": "http://berlin-futsal.com/"
+}
