@@ -1,0 +1,57 @@
+$red: rgb(216, 36, 45);
+$primary: $red;
+
+@import "./node_modules/bootstrap/scss/bootstrap";
+// Required
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+@import "./node_modules/bootstrap/scss/mixins";
+
+body {
+  background: url('./images/berlin.png') no-repeat bottom center;
+}
+
+header {
+  padding: 15px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.sport-font {
+  font-family: 'Octin Prison Free', arial;
+}
+
+.main-title {
+  font-family: 'Odibee Sans', cursive;
+  font-size: 3em;
+}
+
+.language {
+  list-style: none;
+  display: flex;
+}
+
+.language__option {
+  margin-right: 20px;
+  img {
+    height: 50px;
+  }
+}
+
+.jumbotron {
+  background-color: inherit;
+  border-bottom: 1px solid $secondary;
+}
+
+.jumbotron-image {
+  width: 300px;
+}
+
+footer {
+  color: white;
+  padding-top: 300px;
+  font-family: 'Odibee Sans', cursive;
+  font-size: 2em;
+}
