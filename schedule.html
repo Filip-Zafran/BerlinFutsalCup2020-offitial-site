@@ -2,50 +2,78 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Berlin Futsal Cup</title>
-    <link href="https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./main.css" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
 
+  <title>Berlin Futsal Cup 2020</title>
+  <img class="heart" src="images/heartBall.png" alt="Heart of Berlin" />
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet" />
+  <link href="http://allfont.de/allfont.css?fonts=octin-prison-free" rel="stylesheet" type="text/css" />
+  <link href="./style.scss" rel="stylesheet" />
 </head>
 
 <body>
-    <a href="home.html"><img class="english" src="images/english.png" /></a>
-    <a href="./de/home.html"><img class="german" src="images/german.png" /></a>
-    <a href="https://www.berolina-stralau.de/"><img class="logo" src="images/logo.png"></a>
+  <header class="container-fluid">
+    <div class="row justify-content-between">
+      <div class="col-sm d-flex align-items-center">
+        <a href="https://www.berolina-stralau.de/">
+          <img class="logo" src="images/logo.png" alt="Berolina Logo" />
+        </a>
+      </div>
+      <div class="col-sm d-flex align-items-center">
+        <h1 class="main-title">Berlin Futsal Cup 2020</h1>
+      </div>
+      <div class="col-sm d-flex justify-content-end align-items-center">
+        <ul class="language">
+          <li class="language__option">
+            <a href="#"><img src="./images/english.png" alt="english" /></a>
+          </li>
+          <li class="language__option">
+            <a href="#"><img src="./images/german.png" alt="german" /></a>
+          </li>
+        </ul>
+      </div>
+  </header>
+  <nav class="navbar navbar-expand-md navbar-dark bg-primary sport-font">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+      aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-    <h1> BERLIN FUTSAL CUP 2020</h1>
-
-    <div class="container">
-        <img class="heartBall" src="images/heartBall.png">
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="schedule.html">Schedule</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./games.html">Live games</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Gallery</a>
+        </li>
+      </ul>
     </div>
+  </nav>
 
-    <nav>
-        <a href="home.html">APPLICATION INFO </a>
-        <a href="schedule.html"> SCHEDULE </a>
-        <a href="games.html"> LIVE GAMES</a>
-        <a href="./gallery/index.html">GALLERY </a>
-        <a href="admin.html"> ADMIN ACCESS </a>
+  <main>
 
-    </nav>
+    <img class="scheduleImg" src="images/schedule09-18.png">
+
+  </main>
 
 
+  <footer class="container">
+    <p>Berlin Futsal Cup 2020</p>
+  </footer>
 
-    <body>
-
-        <img class="scheduleImg" src="images/schedule09-18.png">
-
-    </body>
-
-
-
-
-    <div class="footer">
-        <img class="berlin" src="images/berlin.png" />
-
-    </div>
-
+  <script src="./node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

@@ -9,6 +9,7 @@ $primary: $red;
 
 body {
   background: url("./images/berlin.png") no-repeat bottom center;
+  background-size: 100%;
 }
 
 header {
@@ -57,13 +58,6 @@ footer {
   padding-top: 300px;
   font-family: "Odibee Sans", cursive;
   font-size: 2em;
-}
-
-.thstyle {
-  font-size: 30px;
-  color: white;
-  background: rgb(216, 36, 45);
-  // padding-top: 20px;
 }
 
 // FICHO
@@ -117,12 +111,26 @@ footer {
   height: 25px;
 }
 
-// CSS testing
+// STATIC FOOTER
 .tdstyle {
-  font-size: 20px;
+  font-size: 22px;
   background: rgb(238, 236, 236);
   font-weight: bold;
   border-color: white;
-  // border-radius: 2px;
-  // margin: 2px;
+}
+
+.thstyle {
+  font-size: 30px;
+  color: white;
+  background: rgb(216, 36, 45);
+  border-top: 20px solid #fff;
+}
+
+.heart {
+  width: 300px;
+  height: 170px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -90%);
 }
