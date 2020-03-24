@@ -2,13 +2,13 @@ $red: rgb(216, 36, 45);
 $primary: $red;
 
 @import "./node_modules/bootstrap/scss/bootstrap";
-// Required 
+// Required
 @import "./node_modules/bootstrap/scss/functions";
 @import "./node_modules/bootstrap/scss/variables";
 @import "./node_modules/bootstrap/scss/mixins";
 
 body {
-  background: url('./images/berlin.png') no-repeat bottom center;
+  background: url("./images/berlin.png") no-repeat bottom center;
 }
 
 header {
@@ -20,11 +20,11 @@ header {
 }
 
 .sport-font {
-  font-family: 'Octin Prison Free', arial;
+  font-family: "Octin Prison Free", arial;
 }
 
 .main-title {
-  font-family: 'Odibee Sans', cursive;
+  font-family: "Odibee Sans", cursive;
   font-size: 3em;
 }
 
@@ -44,21 +44,27 @@ header {
 .jumbotron {
   background-color: inherit;
   border-bottom: 1px solid $secondary;
+  padding: 33px;
 }
 
 .jumbotron-image {
-  width: 300px;
+  width: 90%;
+  float: right;
 }
 
 footer {
   color: white;
   padding-top: 300px;
-  font-family: 'Odibee Sans', cursive;
+  font-family: "Odibee Sans", cursive;
   font-size: 2em;
 }
 
-
-
+.thstyle {
+  font-size: 30px;
+  color: white;
+  background: rgb(216, 36, 45);
+  // padding-top: 20px;
+}
 
 // FICHO
 
@@ -83,19 +89,16 @@ footer {
   width: 100%;
 }
 
-
 .row {
   display: flex;
   flex-flow: row wrap;
   padding: 10px;
-
 }
 
 .half {
   flex-grow: 1;
   display: flex;
   height: 25px;
-
 }
 
 .half:first-child {
@@ -115,3 +118,11 @@ footer {
 }
 
 // CSS testing
+.tdstyle {
+  font-size: 20px;
+  background: rgb(238, 236, 236);
+  font-weight: bold;
+  border-color: white;
+  // border-radius: 2px;
+  // margin: 2px;
+}
