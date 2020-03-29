@@ -1,7 +1,7 @@
      /* club color rgb(216, 36, 45); */
      /* background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4); */
 
-// TESTING MASTER BRANCH FOR GITHUB
+     // TESTING MASTER BRANCH FOR GITHUB
 
      body {
          font-family: 'Octin Prison Free',
@@ -61,7 +61,7 @@
              arial !important;
      }
 
-     nav {
+     /* nav {
          margin-left: 100px;
          color: white margin-right: 960px;
          background-color: rgb(216, 36, 45);
@@ -75,7 +75,7 @@
          flex-grow: 50%;
          height: 30px;
          align-items: center;
-     }
+     } */
 
      .grid {
          display: grid;
@@ -141,26 +141,26 @@
      }
 
 
-.firstTable {
-        border-collapse: collapse;
-        width: 100%;
-    }
+     .firstTable {
+         border-collapse: collapse;
+         width: 100%;
+     }
 
-    th,
-    td {
-        text-align: left;
-        padding: 8px;
-    }
+     th,
+     td {
+         text-align: left;
+         padding: 8px;
+     }
 
-    tr:nth-child(even) {
-        background-color: #f2f2f2
-    }
+     tr:nth-child(even) {
+         background-color: #f2f2f2
+     }
 
-    th {
-        background-color: rgb(216, 36, 45);
-        color: white;
-   
-}
+     th {
+         background-color: rgb(216, 36, 45);
+         color: white;
+
+     }
 
 
      /* // TABLE */
