@@ -134,3 +134,18 @@ footer {
   left: 65%;
   transform: translate(-50%, -90%);
 }
+
+.tabCont {
+  display: flex;
+  flex-direction: row;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 20%;
+}
+
+.contentContainer {
+}

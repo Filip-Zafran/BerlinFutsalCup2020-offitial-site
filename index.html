@@ -127,64 +127,53 @@
     </div>
 
 
+
     <div class='tabCont'>
       <div class='buttonContainer'>
-<button onclick="showPanel(0, 'green')">Cup details</button> <br>
-<button onclick="showPanel(1, 'blue')">Payment details</button><br>
-<button onclick="showPanel(2, 'red')">Location</button><br>
-<button onclick="showPanel(3, 'grey')">Application form</button>
+        <button onclick="showPanel(0, 'green')">Cup details</button> <br>
+        <button onclick="showPanel(1, 'blue')">Payment details</button><br>
+        <button onclick="showPanel(2, 'red')">Location</button><br>
+        <button onclick="showPanel(3, 'grey')">Application form</button>
       </div>
-<div class='tabPanel1'>content1</div>
-<div class='tabPanel1'>content2</div>
-<div class='tabPanel1'>content3</div>
-<div class='tabPanel1'>content4</div>
-    </div>
-
-
- // need to make flex row
-    <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4">
-          <h2>Cup details</h2>
-          <p>
-            2 day cup. Minimum 3 games for each team. Group stage + Knock out
-          </p>
-        </div>
-        <div class="col-md-4">
-          <h2>Payment details</h2>
-          <p>
-            Bank or Paypall <br />
-            - participation fee 58 EU <br />
-            - 20 eu after application <br />
-            - no refunds <br />
-            - application deadline: 29th May / first come, first serve
-          </p>
-        </div>
-        <div class="col-md-4">
-          <h2>Location</h2>
-          <p>Sports Hall in X-berg:<br />Lobeckstraße 62, 10969 Berlin</p>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2428.7711827904623!2d13.402262415494452!3d52.50138144536183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e2b869c1085%3A0x7311f8a29c96cb44!2sLobeckstra%C3%9Fe%2062%2C%2010969%20Berlin!5e0!3m2!1sen!2sde!4v1582149134241!5m2!1sen!2sde"
-            allowfullscreen>
-          </iframe>
-        </div>
-      </div>
-
-      <iframe
+        <div class='contentContainer'>
+      <div class='tabPanel1'><div class="col-md-4">
+        <h2>Cup details</h2>
+        <p>
+          2 day cup. Minimum 3 games for each team. Group stage + Knock out
+        </p>
+      </div></div>
+      <div class='tabPanel1'><div class="col-md-4">
+        <h2>Payment details</h2>
+        <p>
+          Bank or Paypall <br />
+          - participation fee 58 EU <br />
+          - 20 eu after application <br />
+          - no refunds <br />
+          - application deadline: 29th May / first come, first serve
+        </p>
+      </div></div>
+      <div class='tabPanel1'><div class="col-md-4">
+        <h2>Location</h2>
+        <p>Sports Hall in X-berg:<br />Lobeckstraße 62, 10969 Berlin</p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2428.7711827904623!2d13.402262415494452!3d52.50138144536183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e2b869c1085%3A0x7311f8a29c96cb44!2sLobeckstra%C3%9Fe%2062%2C%2010969%20Berlin!5e0!3m2!1sen!2sde!4v1582149134241!5m2!1sen!2sde"
+          allowfullscreen>
+        </iframe>
+      </div></div>
+      <div class='tabPanel1'><iframe
         src="https://docs.google.com/forms/d/e/1FAIpQLSd9vX_fBZCJ3R6dncrgK7UcN2UUBQNAftKz6avpd3vKjzaPkw/viewform?embedded=true"
-        width="640" height="1646" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-
+        width="640" height="1646" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></div>
+      </div>
     </div>
-    <!-- /container -->
 
+
+ 
     <footer class="container">
-      <p>Berlin Futsal Cup 2020</p>
     </footer>
 
     <script src="./node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script src="index.js"></script>
-  </body>
+    <script src="index.js"></script>
+</body>
 
 </html>
