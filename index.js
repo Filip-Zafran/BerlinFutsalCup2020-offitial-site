@@ -4,9 +4,15 @@
 function toggleSideBar1() {
   var x = document.getElementById("cupDetails");
   if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
+    x.style.display = "block",
+    cupDetailsBttn.style.backgroundColor = "white",
+    cupDetailsBttn.style.color = "red",
+    cupDetailsBttn.style.fontWeight = "normal";
+      } else {
     x.style.display = "none";
+  cupDetailsBttn.style.backgroundColor = "red",
+    cupDetailsBttn.style.color = "white",
+    cupDetailsBttn.style.fontWeight = "bold";
   }
 } 
 
@@ -17,9 +23,15 @@ function toggleSideBar1() {
 function toggleSideBar2() {  
   var x = document.getElementById("paymentDetails");
   if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
+    x.style.display = "block",
+    cupDetailsBttn.style.backgroundColor = "white",
+    cupDetailsBttn.style.color = "red",
+    cupDetailsBttn.style.fontWeight = "normal";
+      } else {
     x.style.display = "none";
+  cupDetailsBttn.style.backgroundColor = "red",
+    cupDetailsBttn.style.color = "white",
+    cupDetailsBttn.style.fontWeight = "bold";
   }
 } 
 
@@ -30,11 +42,17 @@ function toggleSideBar2() {
 function toggleSideBar3() {  
   var x = document.getElementById("location");
   if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
+    x.style.display = "block",
+    cupDetailsBttn.style.backgroundColor = "white",
+    cupDetailsBttn.style.color = "red",
+    cupDetailsBttn.style.fontWeight = "normal";
+      } else {
     x.style.display = "none";
+  cupDetailsBttn.style.backgroundColor = "red",
+    cupDetailsBttn.style.color = "white",
+    cupDetailsBttn.style.fontWeight = "bold";
   }
-}
+} 
 
       const appFormBttn = document.getElementById("appFormBttn");
     appFormBttn.addEventListener("click", toggleSideBar4);
@@ -42,7 +60,14 @@ function toggleSideBar3() {
   function toggleSideBar4() {    
   var x = document.getElementById("appForm");
   if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
+    x.style.display = "block",
+    cupDetailsBttn.style.backgroundColor = "white",
+    cupDetailsBttn.style.color = "red",
+    cupDetailsBttn.style.fontWeight = "normal";
+      } else {
     x.style.display = "none";
-    }}
+  cupDetailsBttn.style.backgroundColor = "red",
+    cupDetailsBttn.style.color = "white",
+    cupDetailsBttn.style.fontWeight = "bold";
+  }
+} 
